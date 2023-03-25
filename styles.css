@@ -4,9 +4,10 @@ body{
 }
 
 main{
-    max-width: 300px;
+    max-width: 400px;
+    height: 90vh;
     border: 1px black solid;
-    margin: 150px auto;
+    margin: 0 auto;
     padding: 20px;
     background-color: rgba(58, 57, 57, 0.726);
     border: none;
@@ -14,8 +15,8 @@ main{
 }
 
 button{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     font-size: 25px;
     margin: 5px;
     border-radius: 15px;
@@ -23,7 +24,7 @@ button{
 }
 
 #equal{
-    width: 210px;
+    width: 270px;
 }
 
 #result{
