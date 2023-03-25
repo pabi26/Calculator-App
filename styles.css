@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+main{
+    max-width: 300px;
+    border: 1px black solid;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: rgba(58, 57, 57, 0.726);
+    border: none;
+    border-radius: 15px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+}
+
+#equal{
+    width: 210px;
+}
+
+#result{
+    width: 93%;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    font-size: 3rem;
+}
+
+
+.color{
+    background-color: orange;
+}
+
+#clear{
+    background-color: rgb(255, 0, 0);
+}
+
+.number{
+    background-color: grey;
+}

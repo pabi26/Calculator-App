@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="calculator-body">
+        <div id="calculator">
+            <input type="text" id="result" readonly />
+            <button id="clear" onclick="clearClick()">C</button>
+            <button class="color" onclick="toggleSign()">+/-</button>
+            <button class="color" onclick="operatorClick('/')">/</button>
+            <button class="color" onclick="operatorClick('*')">*</button>
+            <button class="number" onclick="numberClick('7')">7</button>
+            <button class="number" onclick="numberClick('8')">8</button>
+            <button class="number" onclick="numberClick('9')">9</button>
+            <button class="color" onclick="operatorClick('-')">-</button>
+            <button class="number" onclick="numberClick('4')">4</button>
+            <button class="number" onclick="numberClick('5')">5</button>
+            <button class="number" onclick="numberClick('6')">6</button>
+            <button class="color" onclick="operatorClick('+')">+</button>
+            <button class="number" onclick="numberClick('1')">1</button>
+            <button class="number" onclick="numberClick('2')">2</button>
+            <button class="number" onclick="numberClick('3')">3</button>
+            <button class="color" onclick="decimalClick()">.</button>
+            <button class="number" onclick="numberClick('0')">0</button>
+            <button class="color" id="equal" onclick="equalClick()">=</button>
+          </div>          
+    </main>
+	<script src="index.js"></script>
+</body>
+</html>
+
