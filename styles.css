@@ -17,7 +17,7 @@ main{
 #calculator{
     max-width: 400px;
     height: 100vh;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 button{
     width: 75px;
@@ -35,7 +35,7 @@ button{
 
 #result{
     width: 85%;
-    height: 80px;
+    height: 150px;
     border: none;
     border-radius: 15px;
     margin-bottom: 7px;
