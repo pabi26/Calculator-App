@@ -16,7 +16,8 @@ main{
 
 #calculator{
     max-width: 400px;
-    margin: 50px auto;
+    height: 100vh;
+    margin: 100px auto;
 }
 button{
     width: 75px;
