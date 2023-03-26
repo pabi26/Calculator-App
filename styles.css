@@ -5,7 +5,7 @@ body{
 
 main{
     max-width: 100%;
-    height: 90vh;
+    height: 90-vh;
     border: 1px black solid;
     margin: 0 auto;
     padding: 20px;
@@ -19,8 +19,8 @@ main{
     margin: 0 auto;
 }
 button{
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     font-size: 25px;
     margin: 5px;
     border-radius: 15px;
@@ -28,11 +28,11 @@ button{
 }
 
 #equal{
-    width: 270px;
+    width: 252px;
 }
 
 #result{
-    width: 93%;
+    width: 85%;
     height: 80px;
     border: none;
     border-radius: 15px;
